@@ -9,7 +9,7 @@ def write_obj(obj, material_lookup, dg, f):
     coords = []
     for v in mesh.vertices:
         for i in range(0, 3):
-            coords.append("{:.2g}".format( v.co[i] ))
+            coords.append("{:.2f}".format( v.co[i] ))
 
     materials = []
     faces = []
