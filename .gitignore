@@ -1,0 +1,7 @@
+index.html
+*.zip
+app.min.js
+
+.DS_Store
+*.swp
+*.jar
